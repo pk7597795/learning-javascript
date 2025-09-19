@@ -1,0 +1,45 @@
+// let temp = 40
+// if (temp >= 50) {
+//     console.log("Temp is boiling hot")
+// } else if (temp > 30 && temp < 50){
+//     console.log("Temp is bearable")
+// } else {
+//     console.log("Temp is soothing")
+// }
+
+// const month = 3
+// switch (month) {
+//     case 1:
+//         console.log("Month is January")
+//         break;
+//     case 2:
+//         console.log("Month is February")
+//         break;
+//     case 3:
+//         console.log("Month is March")
+//         break;
+
+//     default:
+//         console.log("Please enter correct number")
+//         break;
+// }
+
+//falsy values: 0, false, 0n, "", null, NaN, undefined, -0
+//truthy values: "0", " ", function(){}, 'false', [], {}
+const movieList = []
+if (movieList.length != 0) {
+    console.log("list is empty")
+}
+
+const newObj = {}
+if (Object.keys(newObj).length === 0) {
+    console.log("Object is empty")
+}
+
+
+let incCount = null ?? 20
+let reqCount = undefined ?? 10
+console.log(incCount, reqCount)
+
+// condition?true statement: false statement
+incCount >= 10 ? console.log("We have high number of pending Inc") : console.log("Count is good")

@@ -1,0 +1,20 @@
+const myArray = ['Pankaj','Saurav','Rohit']
+// for (let i = 0; i < myArray.length; i++){
+//     if (i == 1) {
+//         continue;
+//     }
+//     console.log(myArray[i])
+// }
+
+let i = 0
+// while (i < myArray.length) {
+//     console.log(myArray[i])
+//     i++
+// }
+
+
+do {
+    console.log(myArray[i])
+    i++
+} while (i < myArray.length)
+
